@@ -13,3 +13,147 @@
   font-family: 'Montserrat', sans-serif;
   font-family: 'Space Mono', monospace; */
 
+
+/* **************************************************** */
+
+                    /* VARIABLES */
+
+/* **************************************************** */
+
+
+:root {
+
+
+  /* Colors */
+
+  --dark-gray: #333;
+  --light-gray: #4F4F4F;
+  --very-light-gray: #BDBDBD;
+  --white: #FFF;
+
+
+  /* Fonts */
+
+  --main-font-family: 'Space Mono', monospace;
+  --secondary-font-family: 'Inconsolata', monospace;
+  --attribution-font-family: 'Montserrat', sans-serif;
+
+
+  /* Font Weight */
+
+  --fw-regular: 400;
+  --fw-medium: 500;
+  --fw-bold: 700;
+
+
+}
+
+
+/* **************************************************** */
+
+                    /* MAIN STYLES */
+
+/* **************************************************** */
+
+
+/* html */
+html {
+  font-size: 18px;
+  font-family: var(--main-font-family);
+  font-weight: var(--fw-regular);
+  box-sizing: border-box;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+
+/* body */
+body {
+  background-color: var(--white);
+}
+
+
+/* header */
+.header {
+  margin-top: 1.111111rem;
+  margin-left: 1.333333rem;
+  font-family: var(--secondary-font-family);
+  font-size: 1.333333rem;
+  font-weight: var(--fw-bold);
+  line-height: 1.388889rem;
+  letter-spacing: -0.08rem;
+  color: var(--dark-gray);
+}
+
+
+/* Main Image */
+.main-img {
+  width: 15.935rem;
+  height: 13.222222rem;
+  margin: 3.555556rem auto 3.333333rem auto;
+  background-image: url(../Scarecrow.png);
+  background-size: contain;
+  background-position: center;
+}
+
+
+/* Main Content */
+.main-content-container {
+  height: 21.5rem;
+  margin-left: 1.333333rem;
+  letter-spacing: -0.035rem;
+}
+
+
+/* h1 */
+.main-headline {
+  margin-right: 0.055556rem;
+  font-size: 2.666667rem;
+  font-weight: var(--fw-bold);
+  line-height: 3.944444rem;
+  color: var(--dark-gray);
+}
+
+
+/* Main Copy */
+.main-copy {
+  margin-top: 1.666667rem;
+  margin-right: 1.333333rem;
+  margin-bottom: 3.666667rem;
+  line-height: 1.5rem;
+  color: var(--light-gray);
+}
+
+
+/* Back to Homepage Button */
+.back-to-home-btn {
+  width: 12rem;
+  height: 3.777778rem;
+  background-color: var(--dark-gray);
+  color: var(--white);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 0.777778rem;
+  font-weight: var(--fw-bold);
+  line-height: 1.166667rem;
+}
+
+
+/* Footer Styles */
+.attribution {
+  margin: 6.333333rem auto 1.333333rem auto;
+  text-align: center;
+  font-family: var(--attribution-font-family);
+  font-size: 0.777778rem;
+  font-weight: var(--fw-medium);
+  line-height: 0.944444rem;
+  color: var(--very-light-gray);
+}
+
+
+.attribution-link {
+  font-weight: var(--fw-bold);
+  color: var(--very-light-gray);
+}
