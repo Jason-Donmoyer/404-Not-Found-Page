@@ -95,6 +95,7 @@ body {
   background-image: url(../Scarecrow.png);
   background-size: contain;
   background-position: center;
+  background-repeat: no-repeat;
 }
 
 
@@ -156,4 +157,50 @@ body {
 .attribution-link {
   font-weight: var(--fw-bold);
   color: var(--very-light-gray);
+}
+
+
+/* **************************************************** */
+
+                  /* MEDIA QUERIES */
+
+/* **************************************************** */
+
+
+@media screen and (min-width: 1024px) {
+
+
+  /* header */
+  .header {
+    margin-top: 2.222222rem;
+    margin-left: 4.277778rem;
+  }
+
+
+  /* Main Container */
+  .main-container {
+    width: 69.111111rem;
+    margin-top: 11.111111rem;
+    margin-right: 6.611111rem;
+    margin-left: 4.277778rem;
+    display: flex;
+    justify-content: space-between;
+  }
+
+
+  /* Main Image */
+  .main-img {
+    width: 29.9566667rem;
+    height: 24.857222rem;
+    margin: 0rem;
+  }
+
+
+  /* Main Content Container */
+  .main-content-container {
+    width: 32.555556rem;
+    margin-left: 0rem;
+  }
+
+
 }
