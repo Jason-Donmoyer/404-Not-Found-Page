@@ -199,7 +199,23 @@ body {
   /* Main Content Container */
   .main-content-container {
     width: 32.555556rem;
+    height: 25.888889rem;
     margin-left: 0rem;
+  }
+
+
+  /* Main Headline h1 */
+  .main-headline {
+    font-size: 3.555556rem;
+    line-height: 5.277778rem;
+  }
+
+
+  /* Main Copy */
+  .main-copy {
+    width: 21.166667rem;
+    font-size: 1.333333rem;
+    line-height: 2rem;
   }
 
 
